@@ -37,18 +37,3 @@ src/
 └── index.css
 ```
 
-## 🌐 Deploy
-
-This is a static site — any static host works:
-
-- **Vercel** — connect the repo, auto-deploys on push
-- **Netlify** — drag-and-drop the `dist/` folder or connect the repo
-- **Cloudflare Pages** — connect the repo for instant global CDN
-- **GitHub Pages** — deploy via GitHub Actions
-
-Build command: `npm run build`  
-Output folder: `dist`
-
-## ✏️ Customization
-
-Edit `src/data/profile.ts` to replace all content with your own — name, headline, experience, projects, certifications, and skills. The components pull everything from that single file.
