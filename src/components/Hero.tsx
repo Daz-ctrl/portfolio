@@ -61,13 +61,26 @@ export default function Hero({ personalDetails }: { personalDetails: PersonalDet
             {personalDetails.headline}
           </motion.p>
 
-          {/* Summary */}
-          <motion.p
+          {/* Highlights tag cloud */}
+          <motion.div
             variants={item}
-            className="mx-auto mb-8 max-w-lg text-sm text-zinc-500 sm:text-base"
+            className="mx-auto mb-8 flex max-w-xl flex-wrap justify-center gap-2"
           >
-            {personalDetails.summary}
-          </motion.p>
+            {personalDetails.highlights.map((tag) => (
+              <motion.span
+                key={tag}
+                whileHover={{
+                  scale: 1.08,
+                  backgroundColor: 'rgba(6, 182, 212, 0.2)',
+                  color: '#22d3ee',
+                  transition: { type: 'spring', stiffness: 400, damping: 15 },
+                }}
+                className="cursor-default rounded-full bg-accent-500/10 px-3 py-1.5 text-sm font-medium text-accent-400 transition-colors"
+              >
+                {tag}
+              </motion.span>
+            ))}
+          </motion.div>
 
           {/* Social links */}
           <motion.div variants={item} className="flex items-center justify-center gap-4">

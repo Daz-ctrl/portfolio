@@ -6,6 +6,7 @@ export interface PersonalDetails {
   linkedin: string
   headline: string
   summary: string
+  highlights: string[]
 }
 
 export interface Education {
@@ -48,6 +49,16 @@ export const personalDetails: PersonalDetails = {
   headline: 'Cybersecurity & Cloud Security Analyst',
   summary:
     'Cybersecurity & Cloud Security Analyst | Networking & Endpoint Security | Certified: Oracle Cloud AI Associate, OCI AI Agent Studio, Cisco Networking | Endpoint security | Linux Administration | Agentic AI',
+  highlights: [
+    'Cybersecurity & Cloud Security Analyst',
+    'Networking & Endpoint Security',
+    'Oracle Cloud AI Associate',
+    'OCI AI Agent Studio',
+    'Cisco Networking',
+    'Endpoint Security',
+    'Linux Administration',
+    'Agentic AI',
+  ],
 }
 
 export const education: Education[] = [
