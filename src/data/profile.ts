@@ -47,7 +47,7 @@ export const personalDetails: PersonalDetails = {
   linkedin: 'https://www.linkedin.com/in/kameswara-surya-yashmit-akundi',
   headline: 'Cybersecurity & Cloud Security Analyst',
   summary:
-    'Analytically driven engineering student specializing in Infrastructure Security, Cloud Automation, and Network Systems Architecture. Strong research-oriented mindset focused on systems internals, defensive automation, multi-agent AI coordination, and algorithmic network optimizations.',
+    'Cybersecurity & Cloud Security Analyst | Networking & Endpoint Security | Certified: Oracle Cloud AI Associate, OCI AI Agent Studio, Cisco Networking | Endpoint security | Linux Administration | Agentic AI',
 }
 
 export const education: Education[] = [
